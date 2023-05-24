@@ -1,13 +1,9 @@
 <script setup>
-
-  import { RouterView } from 'vue-router'
-  import HomeView from "./views/HomeView.vue"
-  import Card from './components/card.vue';
-
+  import TabularViewVue from './views/TabularView.vue';
 </script>
 
 <template>
-  <RouterView />
+  <TabularViewVue></TabularViewVue>
 </template>
 
 <style>
